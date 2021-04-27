@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const { Pool } = require("pg");
+const {Pool} = require("pg");
 
 const app = express();
 
@@ -38,4 +38,4 @@ app.get("/about", (req, res) => {
     res.render("data", { model: test });
   });
 
-
+  
